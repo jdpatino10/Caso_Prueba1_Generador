@@ -1,0 +1,28 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+.tmp/
+/target/
+/caso12-logic/target/
+/caso12-api/target/
+
+#NetBeans
+nbactions.xml
+/caso12-api/nb-configuration.xml
+
+#Tests
+/caso12-logic/derby.log
+/caso12-api/derby.log
+
+#Bower
+/caso12-api/src/main/webapp/bower_components/
